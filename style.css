@@ -1,0 +1,115 @@
+*{margin:  0;
+}
+
+@font-face {
+	font-family: 'DejaVu Sans';
+	
+	src: 
+		url('../fonts/dejavu_sans.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/dejavu_sans.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		
+}
+body{
+background-color: black;
+text-align: center;
+
+}
+
+ul{
+    list-style-type: none;
+    font-size: 0;
+}
+
+li{
+    background-color: #2a252b;
+    width: 70px;
+    height: 100vh;
+    font-size: 14px;
+    vertical-align: top;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: 30px;
+}
+.logo{
+    
+    font-size: 18px;
+    color: white; 
+    position: absolute;
+    top:30%;
+    left:calc(45% + 20px);
+}
+span,img{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+.casper{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 8px;
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: 'Leckerli One', cursive;
+}
+
+h2{
+    
+    color: #208bac;
+    font-size: 9px;
+    position: absolute;
+    display: inherit;
+    right: 10px;
+}
+
+h3.casper {
+    position: relative;
+    top: -17px;
+}
+
+.text_social{
+    color: white;
+    font-family: 'Leckerli One', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    position: relative;
+    left: 10px;
+    
+}
+
+hr{
+    text-decoration: none;
+    box-shadow: inset 0 0px 0 white, inset 0 -1px 0 white;
+    position: absolute;
+    top: 47%;
+    width: 300px;
+    left: calc(43% + 15px);
+
+}
+
+.social_icons{
+    word-spacing: 40px;
+    position: relative;
+    left: 40px;
+    top: -470px;
+
+}
+p{
+    font-family: 'Leckerli One', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: white;  
+    position: relative;
+    left: 40px;
+    top: -200px;
+}
+.foot{
+    color: #1e9cc2;
+    font-family: 'Leckerli One', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
