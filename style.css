@@ -4,9 +4,8 @@
 @font-face {
 	font-family: 'DejaVu Sans';
 	
-	src: 
-		url('../fonts/dejavu_sans.woff2') format('woff2'), /* Super Modern Browsers */
-		url('../fonts/dejavu_sans.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+	src:url('./fonts/dejavu_sans.woff2') format('woff2'),
+		url('./fonts/dejavu_sans.woff') format('woff')
 		
 }
 body{
@@ -36,7 +35,7 @@ li{
     color: white; 
     position: absolute;
     top:30%;
-    left:calc(45% + 20px);
+    left:calc(45% - 10px);
 }
 span,img{
     display: inline-block;
@@ -75,7 +74,7 @@ h3.casper {
     letter-spacing: 2px;
     position: relative;
     left: 10px;
-    
+    top:-15px;
 }
 
 hr{
@@ -84,15 +83,15 @@ hr{
     position: absolute;
     top: 47%;
     width: 300px;
-    left: calc(43% + 15px);
+    left: calc(43% - 20px);
 
 }
 
 .social_icons{
     word-spacing: 40px;
     position: relative;
-    left: 40px;
-    top: -470px;
+    left: 30px;
+    top: -340px;
 
 }
 p{
